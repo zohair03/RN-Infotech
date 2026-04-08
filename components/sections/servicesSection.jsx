@@ -32,47 +32,55 @@ const services = [
 const Services = () => {
   return (
     <section className="py-8 px-6 sm:px-8 lg:py-12 lg:px-16 2xl:px-35 shadow-[inset_0_50px_40px_-10px_#bfdbfe]">
+      
       {/* Header */}
       <div className="flex flex-col items-center gap-4 mb-8 md:mb-10">
         <div className="flex flex-col gap-2">
           <p className="label text-center font-semibold">What We Do</p>
-          <h2 className="text-black max-[380px]:text-2xl text-h2 font-serif sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl">
+          <h2 className="text-black text-h2 font-serif sm:text-3xl lg:text-4xl">
             Our Services
           </h2>
         </div>
-        <p className="text-black/80 text-center font-sans max-[380px]:text-sm text-lg md:text-lg lg:text-xl w-[90%] md:w-auto">
+
+        <p className="text-black/80 text-center font-sans text-lg lg:text-xl max-w-2xl">
           Reliable laptop & computer solutions — all under one roof.
         </p>
       </div>
 
-      {/* Cards — flex-wrap for 2 rows of 3 on desktop */}
-      <div className="flex flex-col xl:flex-row sm:flex-wrap gap-6 justify-center">
-        {services.map((service) => (
+      {/* Cards */}
+      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {services.map((service, index) => (
           <div
             key={service.id}
-            className="transition-transform duration-600 hover:-translate-y-2 relative w-full xl:w-[calc(33.333%-16px)] h-[450px] md:h-[380px] lg:h-[425px] xl:h-[500px] rounded-2xl overflow-hidden shadow-xl flex-shrink-0"
+            className="group relative transition-transform duration-400 hover:-translate-y-2 h-[420px] rounded-2xl overflow-hidden shadow-xl"
           >
-            {/* Image */}
+            {/* Optimized Image */}
             <Image
               src={service.image}
               alt={service.title}
               fill
-              className="object-cover"
+              priority={index === 0} // only first image is priority
+              sizes="(max-width: 768px) 100vw,
+                     (max-width: 1280px) 50vw,
+                     33vw"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
             />
 
-            {/* Gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/75 to-transparent" />
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-transparent" />
 
             {/* Content */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col lg:items-start lg:text-start gap-2 md:pb-8">
-              <h3 className="text-white text-start font-serif normal-case max-[380px]:text-2xl text-2xl md:text-3xl lg:text-3xl xl:text-3xl max-[380px]:leading-11 leading-11 xl:leading-14">
+            <div className="absolute bottom-0 p-6 flex flex-col gap-2">
+              <h3 className="text-white text-left font-serif max-[380px]:text-2xl text-2xl md:text-3xl lg:text-3xl xl:text-3xl leading-11 sm:leading-14 xl:leading-13">
                 {service.title}
               </h3>
-              <p className="text-white/80 font-sans text-base md:tex-base  leading-6 lg:max-xl:w-[85%] max-[380px]:leading-6">
+
+              <p className="text-white/80 font-sans text-sm md:text-base leading-6 line-clamp-3">
                 {service.description}
               </p>
+
               <Link href={service.href} className="pt-2">
-                <button className="cursor-pointer font-semibold text-[16px] border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 transition-all ease-in-out duration-300 w-[200px] min-h-[50px]">
+                <button className="cursor-pointer font-serif font-semibold font-extralight text-[12px] border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 transition-all ease-in-out duration-300 w-[200px] min-h-[50px]">
                   Learn more
                 </button>
               </Link>
@@ -82,7 +90,7 @@ const Services = () => {
       </div>
 
       {/* Bottom button */}
-      <div className="flex justify-center mt-6 md:mt-10">
+      <div className="flex justify-center mt-8">
         <PrimaryBtn href="/services" btnText="View All Services" />
       </div>
     </section>

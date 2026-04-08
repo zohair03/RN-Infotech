@@ -257,6 +257,7 @@ body {
   /* label */
   .label {
     color: var(--color-primary);
+    font-style: var(--font-sans);
     font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;

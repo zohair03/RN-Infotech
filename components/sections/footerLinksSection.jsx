@@ -31,7 +31,10 @@ const FooterLinks = () => {
         <div className="flex flex-col items-center gap-6 w-full lg:w-1/4">
           {/* Logo */}
           <div className="flex flex-col gap-1">
-            <Link href="/" className="text-5xl lg:text-3xl xl:text-5xl text-red-500">
+            <Link
+              href="/"
+              className="text-5xl lg:text-3xl xl:text-5xl text-red-500"
+            >
               <span className="text-blue-500">RN</span>Infotech
             </Link>
           </div>
@@ -170,12 +173,17 @@ const FooterLinks = () => {
               +91 88797 32594
             </p>
             <p className="text-white/80 text-sm md:text-base hover:text-white transition-colors">
-              email@email.com
+              rninfotechrepair@gmail.com
             </p>
-            <p className="text-white/80 text-sm md:text-base leading-relaxed">
+            <a
+              href="https://www.google.com/maps/place/Lamington+Rd,+Mumbai,+Maharashtra/@18.9623965,72.8152546,17z/data=!4m6!3m5!1s0x3be7ce12e0ccf523:0x28e71cda40d36bb6!8m2!3d18.9625768!4d72.8179075!16zL20vMDlmcXl4?entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/80 text-sm md:text-base leading-relaxed hover:text-white transition-colors"
+            >
               Room No. 17, Babu Building 1st Floor, Tara Temple Lane, Leamington
               Road, Grant Road, Mumbai-400007, Maharashtra
-            </p>
+            </a>
           </div>
         </div>
       </div>

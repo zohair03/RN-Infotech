@@ -13,13 +13,15 @@ const contactInfo = [
   {
     icon: "/icons/mail.svg",
     alt: "email icon",
-    text: "email@example.com",
+    text: "rninfotechrepair@gmail.com",
+    link: "mailto:rninfotechrepair@gmail.com",
     border: true,
   },
   {
     icon: "/icons/location.svg",
     alt: "location icon",
     text: "Room No. 17, Babu Building 1st Floor, Tara Temple Lane, Leamington Road, Grant Road, Mumbai-400007, Maharashtra",
+    link: "https://www.google.com/maps/place/Lamington+Rd,+Mumbai,+Maharashtra/@18.9623965,72.8152546,17z/data=!4m6!3m5!1s0x3be7ce12e0ccf523:0x28e71cda40d36bb6!8m2!3d18.9625768!4d72.8179075!16zL20vMDlmcXl4?entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D",
     border: true,
   },
 ];
@@ -53,7 +55,14 @@ const FooterForm = () => {
                 height={24}
                 className="icon-primary md:w-[27px] md:h-[27px] flex-shrink-0"
               />
-              <p className="text-base md:text-lg font-medium">{item.text}</p>
+              <a
+                href={item?.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-sans md:text-lg font-medium"
+              >
+                {item.text}
+              </a>
             </div>
           ))}
 
@@ -68,16 +77,20 @@ const FooterForm = () => {
             />
             <div className="flex flex-col gap-1">
               <div className="flex gap-4">
-                <p className="text-base md:text-lg font-medium w-20 md:w-27">
+                <p className="text-base font-sans md:text-lg font-medium w-20 md:w-27">
                   Mon-Sat
                 </p>
-                <p className="text-base md:text-lg">10:00 AM - 10:00 PM</p>
+                <p className="text-base font-sans md:text-lg">
+                  10:00 AM - 10:00 PM
+                </p>
               </div>
               <div className="flex gap-4">
-                <p className="text-base md:text-lg font-medium w-20 md:w-27">
+                <p className="text-base font-sans md:text-lg font-medium w-20 md:w-27">
                   Sun
                 </p>
-                <p className="text-base md:text-lg">Only Appointment</p>
+                <p className="text-base font-sans md:text-lg">
+                  Only Appointment
+                </p>
               </div>
             </div>
           </div>
