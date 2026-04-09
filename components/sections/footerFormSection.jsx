@@ -59,7 +59,7 @@ const FooterForm = () => {
                 href={item?.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base font-sans md:text-lg font-medium"
+                className="break-all text-gray-700 text-base font-sans md:text-lg font-medium"
               >
                 {item.text}
               </a>
@@ -75,13 +75,13 @@ const FooterForm = () => {
               height={24}
               className="icon-primary md:w-[27px] md:h-[27px] flex-shrink-0 self-start mt-1"
             />
-            <div className="flex flex-col gap-1">
+            <div className="text-gray-700 flex flex-col gap-1">
               <div className="flex gap-4">
                 <p className="text-base font-sans md:text-lg font-medium w-20 md:w-27">
                   Mon-Sat
                 </p>
                 <p className="text-base font-sans md:text-lg">
-                  10:00 AM - 10:00 PM
+                  11:00 AM - 09:00 PM
                 </p>
               </div>
               <div className="flex gap-4">

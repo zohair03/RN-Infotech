@@ -59,7 +59,7 @@ const FooterLinks = () => {
                 className="icon-color"
               />
             </Link>
-            <Link
+            {/* <Link
               href="https://facebook.com"
               target="_blank"
               className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
@@ -71,8 +71,8 @@ const FooterLinks = () => {
                 height={30}
                 className="icon-color"
               />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="https://instagram.com"
               target="_blank"
               className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
@@ -84,8 +84,8 @@ const FooterLinks = () => {
                 height={30}
                 className="icon-color"
               />
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               href="https://youtube.com"
               target="_blank"
               className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
@@ -97,7 +97,7 @@ const FooterLinks = () => {
                 height={30}
                 className="icon-color"
               />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
