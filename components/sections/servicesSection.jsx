@@ -62,7 +62,7 @@ const ServiceCard = ({ service, index, isVisible }) => {
 
   return (
     <div
-      className={`group relative transition-all duration-700 ease-out transform max-[380px]:h-[350px] h-[420px] rounded-2xl overflow-hidden shadow-xl
+      className={`transition-transform duration-400 hover:-translate-y-2 hover:shadow-xl group relative transition-all duration-700 ease-out transform max-[380px]:h-[350px] h-[420px] rounded-2xl overflow-hidden shadow-xl
         ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}
       `}
       style={{
