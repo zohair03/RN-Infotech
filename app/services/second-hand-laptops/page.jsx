@@ -158,7 +158,7 @@ const LaptopRepair = () => {
         cta1="Call Us Now"
         cta2="Visit Our Store"
         href2="/service-area"
-        image="bg-[url('/images/rn-infotech-59.webp')]"
+        image="bg-[url('/images/rn-infotech-sh.webp')]"
         height="max-sm:h-[80vh]"
       />
     </>

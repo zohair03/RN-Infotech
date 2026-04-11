@@ -6,7 +6,7 @@ import Link from "next/link";
 const WhyChooseUs = () => {
   return (
     <>
-      <section className="bg-[#f6f8fd] bg-[url('/images/sec-bg.webp')] bg-cover shadow-[inset_0_20px_60px_-10px_#00000026] px-8 py-14 lg:py-18 lg:px-16 2xl:px-50">
+      <section className="bg-[#f6f8fd] bg-[url('/images/why-bg.webp')] bg-cover shadow-[inset_0_20px_60px_-10px_#00000026] px-8 py-14 lg:py-18 lg:px-16 2xl:px-50">
         <div className="h-full">
           <div className="flex gap-8 md:gap-10 flex-col items-center justify-center">
             {/* Header */}

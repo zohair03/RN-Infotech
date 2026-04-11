@@ -56,7 +56,7 @@ const LaptopRepair = () => {
         subtitle="Is your laptop feeling slow and sluggish? A RAM or storage upgrade could be all it needs. Fast, affordable and done by expert technicians in Mumbai."
         breadcrumb="Ram & Storage Upgrade"
         isServicesPage={true}
-        image="/images/rn-infotech-69.webp"
+        image="/images/rn-infotech-ram.webp"
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"
@@ -159,7 +159,7 @@ const LaptopRepair = () => {
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/service-area"
-        image="bg-[url('/images/rn-infotech-69.webp')]"
+        image="bg-[url('/images/rn-infotech-ram.webp')]"
       />
     </>
   );

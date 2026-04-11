@@ -10,7 +10,7 @@ const FinalCta = ({
   href1,
   cta2 = "Book Home Service",
   href2 = "/contact",
-  image = "bg-[url('/images/rn-infotech-19.webp')]",
+  image = "bg-[url('/images/rn-infotech-final-bg.webp')]",
   height = "min-sm:h-[70vh]",
   headingFontSize,
 }) => {
