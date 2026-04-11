@@ -19,6 +19,12 @@
 
 # production
 /build
+.claude
+.next
+.open-next
+.wrangler
+wrangler.jsonc
+open-next.config.ts
 
 # misc
 .DS_Store
