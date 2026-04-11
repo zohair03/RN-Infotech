@@ -9,8 +9,12 @@ const nextConfig = {
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  output: 'standalone',
+  // Disable experimental CSS optimization for OpenNext Cloudflare builds.
+  // The current OpenNext bundle step expects a .next/static/css directory that
+  // Next 16 may no longer emit with this experimental feature enabled.
   experimental: {
-    optimizeCss: true,
+    optimizeCss: false,
   },
 };
 

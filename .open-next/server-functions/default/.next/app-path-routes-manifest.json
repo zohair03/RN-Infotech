@@ -1,0 +1,16 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/faqs/page": "/faqs",
+  "/favicon.ico/route": "/favicon.ico",
+  "/gallery/page": "/gallery",
+  "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/service-area/page": "/service-area",
+  "/services/laptop-repair/page": "/services/laptop-repair",
+  "/services/page": "/services",
+  "/services/ram-and-storage-upgrade/page": "/services/ram-and-storage-upgrade",
+  "/services/second-hand-laptops/page": "/services/second-hand-laptops"
+}

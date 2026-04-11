@@ -1,0 +1,67 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/about/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/contact/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/faqs/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/gallery/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/privacy-policy/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/service-area/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/services/laptop-repair/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/services/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/services/ram-and-storage-upgrade/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ],
+    "[project]/app/services/second-hand-laptops/page": [
+      "static/media/19ed03b1696ef81d.p.0ymk1h~-v8~yz.woff2",
+      "static/media/e1d05e69696bf0b3.p.07lzbokd219e8.woff2",
+      "static/media/2f13ad8e538108e0-s.p.0o52u8sd-fo14.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
