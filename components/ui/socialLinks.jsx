@@ -15,45 +15,6 @@ const socilLinks = () => {
           alt="Just Dial Nasir Khan RN Infotech"
           width={70}
           height={70}
-          className="icon-color-black"
-        />
-      </Link>
-      <Link
-        href="https://facebook.com"
-        target="_blank"
-        className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
-      >
-        <Image
-          src="/icons/facebook.webp"
-          alt="Facebook"
-          width={30}
-          height={30}
-          className=""
-        />
-      </Link>
-      <Link
-        href="https://instagram.com"
-        target="_blank"
-        className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
-      >
-        <Image
-          src="/icons/instagram.webp"
-          alt="Instagram"
-          width={30}
-          height={30}
-          className=""
-        />
-      </Link>
-      <Link
-        href="https://youtube.com"
-        target="_blank"
-        className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
-      >
-        <Image
-          src="/icons/youtube.webp"
-          alt="YouTube"
-          width={30}
-          height={30}
           className=""
         />
       </Link>

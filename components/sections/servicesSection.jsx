@@ -20,31 +20,31 @@ const services = [
     title: "Windows Laptop Repair",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.webp",
-    href: "/services/ram-and-storage-upgrade",
+    image: "/images/rn-infotech-37.webp",
+    href: "/services/laptop-repair",
   },
   {
     id: "03",
     title: "iMac & Desktop Computer Repair",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.webp",
-    href: "/services/ram-and-storage-upgrade",
+    image: "/images/rn-infotech-57.webp",
+    href: "/services/laptop-repair",
   },
   {
     id: "04",
     title: "Apple & Windows Laptop Spare Parts",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.webp",
-    href: "/services/ram-and-storage-upgrade",
+    image: "/images/rn-infotech-70.webp",
+    href: "/services/laptop-repair",
   },
   {
     id: "05",
     title: "Second Hand Laptops",
     description:
       "Get a quality-tested, affordable second-hand laptop that fits your budget. Perfect for students, freelancers, and small businesses looking for value.",
-    image: "/images/rn-infotech-11.webp",
+    image: "/images/rn-infotech-shop-08.webp",
     href: "/services/second-hand-laptops",
   },
   {
@@ -52,7 +52,7 @@ const services = [
     title: "RAM & Storage Upgrade",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.webp",
+    image: "/images/rn-infotech-ram.webp",
     href: "/services/ram-and-storage-upgrade",
   },
 ];

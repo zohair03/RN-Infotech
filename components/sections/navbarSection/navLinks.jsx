@@ -52,8 +52,6 @@ const NavLinks = ({ activeMega, setActiveMega }) => {
             />
           </svg>
       </div>
-
-      <Link href="/gallery">GALLERY</Link>
       <Link href="/contact">CONTACT</Link>
     </div>
   );

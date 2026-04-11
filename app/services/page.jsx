@@ -123,7 +123,7 @@ const services = [
     title: "RAM Modules",
     description:
       "Boost your laptop's speed and multitasking ability with compatible RAM upgrades. Available for all major models.",
-    image: "/images/rn-infotech-73.webp",
+    image: "/images/rn-infotech-ram.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {

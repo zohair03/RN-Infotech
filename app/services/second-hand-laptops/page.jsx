@@ -116,7 +116,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-60.webp"
+        imageSrc="/images/rn-infotech-shop-08.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />
@@ -148,9 +148,9 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-66.webp"
+        imageSrc="/images/rn-infotech-shop-05.webp"
       />
-      <Faqs image="/images/rn-infotech-23.webp" faqs={faqs} title="Second Hand Laptops — Frequently Asked Questions" />
+      <Faqs image="/images/rn-infotech-shop-04.webp" faqs={faqs} title="Second Hand Laptops — Frequently Asked Questions" />
       <FinalCta
         label="Find Your Laptop Today"
         title="Looking for an Affordable Laptop in Mumbai?"

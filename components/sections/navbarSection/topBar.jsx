@@ -42,7 +42,7 @@ const TopBar = () => {
           target="_blank"
           className="max-[380px]:text-xs text-md lg:text-lg"
         >
-          GrandRoad,Mumbai
+          GrantRoad,Mumbai
         </Link>
       </div>
     </div>

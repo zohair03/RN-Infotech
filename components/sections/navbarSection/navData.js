@@ -12,16 +12,16 @@ export const aboutLinks = [
     href: "/service-area",
   },
   {
-    title: "Meet Our Team",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "/images/rn-infotech-29.webp",
-    href: "/meet-our-team",
+    title: "Gallery",
+    description: "Explore Our Repair Gallery: Before & After Transformations",
+    image: "/images/rn-infotech-shop-02.webp",
+    href: "/gallery",
   },
 ];
 
 export const servicesLinks = [
   {
-    title: "Laptop Repair",
+    title: "Macbook Repair",
     description: "Fast & Reliable Laptop Repair in Mumbai",
     image: "/images/rn-infotech-27.webp",
     href: "/services/laptop-repair",
@@ -42,6 +42,5 @@ export const servicesLinks = [
 
 export const navLinks = [
   { title: "HOME", href: "/" },
-  { title: "GALLERY", href: "/gallery" },
   { title: "CONTACT", href: "/contact" },
 ];

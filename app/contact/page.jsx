@@ -44,7 +44,7 @@ const ContactUs = () => {
               <div className="flex gap-2">
                 <div>📧</div>
                 <div>
-                  Email: Drop us an email and we'll respond at the earliest.
+                  Email: rninfotechrepair@gmail.com
                 </div>
               </div>
             </p>
@@ -54,7 +54,7 @@ const ContactUs = () => {
               <div>
                 Business Hours:
                 <br />
-                Monday – Saturday: 10:00 AM – 9:00 PM
+                Monday – Saturday: 11:00 AM – 9:00 PM
                 <br />
                 Sunday: By Appointment Only
               </div>
@@ -72,7 +72,7 @@ const ContactUs = () => {
         cta="Repair Your Machine"
         isClickToCall={true}
         customBtn="w-[255px]"
-        imageSrc="/images/rn-infotech-53.webp"
+        imageSrc="/images/rn-infotech-shop-01.webp"
       />
     </>
   );

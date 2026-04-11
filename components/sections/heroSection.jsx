@@ -24,7 +24,7 @@ const Hero = () => {
 
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 md:gap-5">
-              <PrimaryBtn custom="w-[214px]" href="/services" btnText="View Services"/>
+              <PrimaryBtn custom="w-[204px]" href="/services" btnText="View Services"/>
               <SecondaryBtn href="/contact" custom="border border-light-blue" btnText="Talk to a Technician"/>
             </div>
 

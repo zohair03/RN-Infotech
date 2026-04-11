@@ -48,7 +48,7 @@ const AboutUs = () => {
         }
         cta="Repair Your Machine"
         href="/services"
-        imageSrc="/images/rn-infotech-47.webp"
+        imageSrc="/images/rn-infotech-shop-02.webp"
       />
       <TextAndImageSection
         label="Our Story"
@@ -77,7 +77,7 @@ const AboutUs = () => {
         }
         cta="Contact Us"
         href="/contact"
-        imageSrc="/images/rn-infotech-51.webp"
+        imageSrc="/images/rn-infotech-shop-01.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />

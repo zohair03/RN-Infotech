@@ -3,24 +3,24 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import SubpageHero from "@/components/sections/subpageHero";
 
-
 const galleryImages = [
-  { id: 1, src: "/images/rn-infotech-05.webp", alt: "Gallery Image 1" },
-  { id: 2, src: "/images/rn-infotech-02.webp", alt: "Gallery Image 2" },
-  { id: 3, src: "/images/rn-infotech-06.webp", alt: "Gallery Image 3" },
-  { id: 4, src: "/images/rn-infotech-07.webp", alt: "Gallery Image 4" },
-  { id: 5, src: "/images/rn-infotech-42.webp", alt: "Gallery Image 5" },
-  { id: 6, src: "/images/rn-infotech-47.webp", alt: "Gallery Image 6" },
-  { id: 7, src: "/images/rn-infotech-50.webp", alt: "Gallery Image 7" },
-  { id: 8, src: "/images/rn-infotech-51.webp", alt: "Gallery Image 8" },
-  { id: 8, src: "/images/rn-infotech-344.webp", alt: "Gallery Image 9" },
-  { id: 8, src: "/images/rn-infotech-01.webp", alt: "Gallery Image 10" },
-  { id: 8, src: "/images/rn-infotech-02.webp", alt: "Gallery Image 11" },
-  { id: 8, src: "/images/rn-infotech-344.webp", alt: "Gallery Image 12" },
-  { id: 8, src: "/images/rn-infotech-03.webp", alt: "Gallery Image 13" },
-  { id: 8, src: "/images/rn-infotech-07.webp", alt: "Gallery Image 14" },
-  { id: 8, src: "/images/rn-infotech-05.webp", alt: "Gallery Image 15" },
-  { id: 8, src: "/images/rn-infotech-06.webp", alt: "Gallery Image 16" },
+  { id: 1, src: "/images/rn-infotech-shop-01.webp", alt: "Gallery Image 1" },
+  { id: 2, src: "/images/rn-infotech-shop-02.webp", alt: "Gallery Image 2" },
+  { id: 3, src: "/images/rn-infotech-shop-03.webp", alt: "Gallery Image 3" },
+  { id: 4, src: "/images/rn-infotech-shop-04.webp", alt: "Gallery Image 4" },
+  { id: 5, src: "/images/rn-infotech-shop-05.webp", alt: "Gallery Image 5" },
+  { id: 6, src: "/images/rn-infotech-shop-06.webp", alt: "Gallery Image 6" },
+  { id: 7, src: "/images/rn-infotech-shop-07.webp", alt: "Gallery Image 7" },
+  { id: 8, src: "/images/rn-infotech-shop-08.webp", alt: "Gallery Image 8" },
+  { id: 9, src: "/images/rn-infotech-02.webp", alt: "Gallery Image 9" },
+  { id: 10, src: "/images/rn-infotech-06.webp", alt: "Gallery Image 10" },
+  { id: 11, src: "/images/rn-infotech-07.webp", alt: "Gallery Image 11" },
+  { id: 12, src: "/images/rn-infotech-42.webp", alt: "Gallery Image 12" },
+  { id: 13, src: "/images/rn-infotech-47.webp", alt: "Gallery Image 13" },
+  { id: 14, src: "/images/rn-infotech-50.webp", alt: "Gallery Image 14" },
+  { id: 15, src: "/images/rn-infotech-51.webp", alt: "Gallery Image 15" },
+  { id: 16, src: "/images/rn-infotech-344.webp", alt: "Gallery Image 16" },
+  { id: 17, src: "/images/rn-infotech-shop-06.webp", alt: "Gallery Image 17" },
 ];
 
 const Gallery = () => {

@@ -33,7 +33,7 @@ const FaqItem = ({faq, isOpen, onToggle }) => (
   </div>
 );
 
-const Faqs = ({image='/images/rn-infotech-23.webp', faqs=[],label="? FAQs", title="Frequently Asked Questions"}) => {
+const Faqs = ({image='/images/rn-infotech-shop-02.webp', faqs=[],label="? FAQs", title="Frequently Asked Questions"}) => {
   const [openId, setOpenId] = useState(null);
 
   const handleToggle = (id) => {

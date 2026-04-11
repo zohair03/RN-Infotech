@@ -17,7 +17,7 @@ const Marquee = () => {
         {marqueeItems.map((item, i) => (
           <span
             key={`a-${i}`}
-            className=" text-shadow-[0_0_10px] text-shadow-blue-500  text-xl md:text-2xl font-normal text-blue-200 mx-6 md:mx-10"
+            className="text-shadow-[0_0_10px] text-shadow-blue-500  text-xl md:text-2xl font-normal text-blue-200 mx-6 md:mx-10"
           >
             {item}
           </span>
@@ -27,7 +27,7 @@ const Marquee = () => {
         {marqueeItems.map((item, i) => (
           <span
             key={`b-${i}`}
-            className=" text-shadow-[0_0_10px] text-shadow-blue-500  text-xl md:text-2xl font-normal text-blue-200 mx-6 md:mx-10"
+            className="text-shadow-[0_0_10px] text-shadow-blue-500  text-xl md:text-2xl font-normal text-blue-200 mx-6 md:mx-10"
           >
             {item}
           </span>
