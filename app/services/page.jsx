@@ -17,7 +17,7 @@ const services = [
     title: "Laptop Screen Replacement",
     description:
       "Cracked or damaged screen? We replace screens for all major laptop brands quickly and at affordable prices.",
-    image: "/images/rn-infotech-52.jpg",
+    image: "/images/rn-infotech-52.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -25,7 +25,7 @@ const services = [
     title: "Keyboard Repair & Replacement",
     description:
       "Sticky, broken or unresponsive keys? We repair and replace laptop keyboards for all models.",
-    image: "/images/rn-infotech-32.jpg",
+    image: "/images/rn-infotech-32.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -33,7 +33,7 @@ const services = [
     title: "Battery Replacement",
     description:
       "Is your laptop battery draining too fast or not charging? We replace batteries with genuine, compatible parts.",
-    image: "/images/rn-infotech-30.jpg",
+    image: "/images/rn-infotech-30.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -41,7 +41,7 @@ const services = [
     title: "Charging Port Repair",
     description:
       "Laptop not charging properly? We diagnose and fix all charging port issues quickly and efficiently.",
-    image: "/images/hero-img.jpg",
+    image: "/images/hero-img.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -49,7 +49,7 @@ const services = [
     title: "Motherboard Repair",
     description:
       "Experienced in diagnosing and repairing complex motherboard issues for all major laptop brands.",
-    image: "/images/rn-infotech-57.jpg",
+    image: "/images/rn-infotech-57.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -57,7 +57,7 @@ const services = [
     title: "RAM & Storage Upgrade",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.jpg",
+    image: "/images/rn-infotech-36.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   // Second Hand Laptops
@@ -66,7 +66,7 @@ const services = [
     title: "Second Hand Laptops for Students",
     description:
       "Affordable, quality-tested laptops perfect for students. Great performance without burning a hole in your pocket.",
-    image: "/images/rn-infotech-66.jpg",
+    image: "/images/rn-infotech-66.webp",
     href: "/services/second-hand-laptops",
   },
   {
@@ -74,7 +74,7 @@ const services = [
     title: "Second Hand Laptops for Professionals",
     description:
       "Need a reliable work laptop on a budget? We have a range of tested and verified laptops suited for professionals.",
-    image: "/images/rn-infotech-11.jpg",
+    image: "/images/rn-infotech-11.webp",
     href: "/services/second-hand-laptops",
   },
   {
@@ -82,7 +82,7 @@ const services = [
     title: "Bulk Laptops for Businesses",
     description:
       "Looking to equip your team? We offer bulk second-hand laptops for businesses at competitive prices. Contact us for bulk pricing.",
-    image: "/images/rn-infotech-67.jpg",
+    image: "/images/rn-infotech-67.webp",
     href: "/services/second-hand-laptops",
   },
   // Laptop Parts & Accessories
@@ -91,7 +91,7 @@ const services = [
     title: "Laptop Screens & Displays",
     description:
       "Genuine replacement screens for all major laptop brands and models. Get a crystal clear display again.",
-    image: "/images/rn-infotech-07.jpg",
+    image: "/images/rn-infotech-07.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -99,7 +99,7 @@ const services = [
     title: "Laptop Batteries",
     description:
       "Original and compatible replacement batteries for all major laptop brands. Long-lasting and reliable.",
-    image: "/images/rn-infotech-12.jpg",
+    image: "/images/rn-infotech-12.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -107,7 +107,7 @@ const services = [
     title: "Chargers & Adapters",
     description:
       "Original and compatible laptop chargers and adapters for all brands. Safe, durable and fairly priced.",
-    image: "/images/rn-infotech-78.jpg",
+    image: "/images/rn-infotech-78.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -115,7 +115,7 @@ const services = [
     title: "Hard Drives & SSDs",
     description:
       "Upgrade your storage with quality hard drives and SSDs. We stock a wide range of compatible options.",
-    image: "/images/rn-infotech-77.jpg",
+    image: "/images/rn-infotech-77.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -123,7 +123,7 @@ const services = [
     title: "RAM Modules",
     description:
       "Boost your laptop's speed and multitasking ability with compatible RAM upgrades. Available for all major models.",
-    image: "/images/rn-infotech-73.jpg",
+    image: "/images/rn-infotech-73.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -131,7 +131,7 @@ const services = [
     title: "Keyboards & Touchpads",
     description:
       "Replacement keyboards and touchpads for all major laptop brands. Genuine parts, smooth typing experience.",
-    image: "/images/rn-infotech-54.jpg",
+    image: "/images/rn-infotech-54.webp",
     href: "/services/laptop-repair",
   },
   // Home Service
@@ -140,7 +140,7 @@ const services = [
     title: "Laptop Repair at Home",
     description:
       "Can't visit us? Our expert technician will come to your home and repair your laptop right at your doorstep.",
-    image: "/images/rn-infotech-56.jpg",
+    image: "/images/rn-infotech-56.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -148,7 +148,7 @@ const services = [
     title: "Office Visit Service",
     description:
       "We also offer office visit services for businesses. Get your team's laptops repaired without disrupting your workflow.",
-    image: "/images/rn-infotech-55.jpg",
+    image: "/images/rn-infotech-55.webp",
     href: "/services/laptop-repair",
   },
 ];
@@ -220,7 +220,7 @@ const ServicesHub = () => {
         title="Everything Your Laptop Needs — Under One Roof"
         subtitle="From quick repairs to quality second-hand laptops and genuine spare parts — RN Infotech has been Mumbai's most trusted laptop service destination since 1990."
         breadcrumb="Service Hub"
-        image="/images/rn-infotech-57.jpg"
+        image="/images/rn-infotech-57.webp"
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"

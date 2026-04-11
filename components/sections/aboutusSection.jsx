@@ -24,7 +24,7 @@ const AboutUs = () => {
             {/* Background image - right side, top aligned */}
             <div className="absolute right-0 top-0 w-[72%] h-[95%] rounded-2xl overflow-hidden shadow-md">
               <Image
-                src="/images/rn-infotech-26.jpg"
+                src="/images/rn-infotech-26.webp"
                 alt="About background"
                 fill
                 className="object-cover"
@@ -34,7 +34,7 @@ const AboutUs = () => {
             {/* Foreground image - left side, vertically centered over bg image */}
             <div className="absolute left-0 top-[13%] w-[45%] h-[70%] rounded-2xl overflow-hidden z-10 shadow-xl">
               <Image
-                src="/images/rn-infotech-31.jpg"
+                src="/images/rn-infotech-31.webp"
                 alt="About foreground"
                 fill
                 className="object-cover"

@@ -56,7 +56,7 @@ const LaptopRepair = () => {
         subtitle="From hardware failures to software crashes, our expert technicians diagnose and fix all laptop issues quickly and efficiently. Most repairs done within 2–3 business days."
         breadcrumb="Laptop Repair"
         isServicesPage={true}
-        image="/images/rn-infotech-54.jpg"
+        image="/images/rn-infotech-54.webp"
         cta1="Schedule Now"
         cta2="Contact Us"
         href2="/contact"
@@ -83,7 +83,7 @@ const LaptopRepair = () => {
           </p>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-53.jpg"
+        imageSrc="/images/rn-infotech-53.webp"
       />
       <TextAndImageSection
         label="What's Included"
@@ -120,7 +120,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-55.jpg"
+        imageSrc="/images/rn-infotech-55.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />
@@ -152,10 +152,10 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-32.jpg"
+        imageSrc="/images/rn-infotech-32.webp"
       />
-      <Faqs image="/images/rn-infotech-57.jpg" faqs={faqs} title="Laptop Repair — Frequently Asked Questions" />
-      <FinalCta image="bg-[url('/images/rn-infotech-26.jpg')]" label="Let's Fix It" title="Got a Laptop Problem? We've Got the Solution!" subtitle="Don't let a broken laptop slow you down. Visit us at Grant Road or book a home service today — our expert technicians are ready to help."/>
+      <Faqs image="/images/rn-infotech-57.webp" faqs={faqs} title="Laptop Repair — Frequently Asked Questions" />
+      <FinalCta image="bg-[url('/images/rn-infotech-26.webp')]" label="Let's Fix It" title="Got a Laptop Problem? We've Got the Solution!" subtitle="Don't let a broken laptop slow you down. Visit us at Grant Road or book a home service today — our expert technicians are ready to help."/>
     </>
   );
 };

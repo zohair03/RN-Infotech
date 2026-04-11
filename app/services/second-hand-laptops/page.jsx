@@ -56,7 +56,7 @@ const LaptopRepair = () => {
         subtitle="Get a reliable second-hand laptop that fits your budget — tested, verified and ready to use. Perfect for students, freelancers and small businesses."
         breadcrumb="Second Hand Laptops"
         isServicesPage={true}
-        image="/images/rn-infotech-66.jpg"
+        image="/images/rn-infotech-66.webp"
         cta1="Call Us Now"
         cta2="Visit Our Store"
         href2="/service-area"
@@ -81,7 +81,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-21.jpg"
+        imageSrc="/images/rn-infotech-21.webp"
       />
       <TextAndImageSection
         label="Who It's For"
@@ -116,7 +116,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-60.jpg"
+        imageSrc="/images/rn-infotech-60.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />
@@ -148,9 +148,9 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-66.jpg"
+        imageSrc="/images/rn-infotech-66.webp"
       />
-      <Faqs image="/images/rn-infotech-23.jpg" faqs={faqs} title="Second Hand Laptops — Frequently Asked Questions" />
+      <Faqs image="/images/rn-infotech-23.webp" faqs={faqs} title="Second Hand Laptops — Frequently Asked Questions" />
       <FinalCta
         label="Find Your Laptop Today"
         title="Looking for an Affordable Laptop in Mumbai?"
@@ -158,7 +158,7 @@ const LaptopRepair = () => {
         cta1="Call Us Now"
         cta2="Visit Our Store"
         href2="/service-area"
-        image="bg-[url('/images/rn-infotech-59.jpg')]"
+        image="bg-[url('/images/rn-infotech-59.webp')]"
         height="max-sm:h-[80vh]"
       />
     </>

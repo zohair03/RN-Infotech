@@ -16,7 +16,7 @@ const ContactUs = () => {
         title="Get In Touch With Us"
         subtitle="Have a question, need a repair, or want to book a home service? We're here to help! Reach out to us and our friendly team will get back to you as soon as possible."
         breadcrumb="Contact Us"
-        image="/images/rn-infotech-25.jpg"
+        image="/images/rn-infotech-25.webp"
         cta1="Call Us Now"
         cta2="Vist Us"
         href2="/service-area"
@@ -72,7 +72,7 @@ const ContactUs = () => {
         cta="Repair Your Machine"
         isClickToCall={true}
         customBtn="w-[255px]"
-        imageSrc="/images/rn-infotech-53.jpg"
+        imageSrc="/images/rn-infotech-53.webp"
       />
     </>
   );

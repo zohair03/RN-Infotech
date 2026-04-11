@@ -24,7 +24,7 @@ const socilLinks = () => {
         className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
       >
         <Image
-          src="/icons/facebook.png"
+          src="/icons/facebook.webp"
           alt="Facebook"
           width={30}
           height={30}
@@ -37,7 +37,7 @@ const socilLinks = () => {
         className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
       >
         <Image
-          src="/icons/instagram.png"
+          src="/icons/instagram.webp"
           alt="Instagram"
           width={30}
           height={30}
@@ -50,7 +50,7 @@ const socilLinks = () => {
         className="transition-transform duration-600 hover:-translate-y-1 text-white hover:text-primary transition-colors"
       >
         <Image
-          src="/icons/youtube.png"
+          src="/icons/youtube.webp"
           alt="YouTube"
           width={30}
           height={30}

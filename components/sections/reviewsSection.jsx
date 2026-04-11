@@ -37,7 +37,7 @@ const StarRating = () => (
     {[...Array(5)].map((_, i) => (
       <Image
         key={i}
-        src="/icons/reviews-star.png"
+        src="/icons/reviews-star.svg"
         alt="star"
         width={18}
         height={18}

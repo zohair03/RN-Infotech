@@ -15,7 +15,7 @@ const AboutUs = () => {
         title="Mumbai's Most Trusted Laptop Repair & Services Centre"
         subtitle="Serving customers across Mumbai with honest, reliable and expert laptop solutions since 1990. We are not just a repair shop — we are your trusted tech partner."
         breadcrumb="About Us"
-        image="/images/rn-infotech-17.jpg"
+        image="/images/rn-infotech-17.webp"
         cta1="Schedule Now"
         cta2="Our Services"
         href2="/services"
@@ -48,7 +48,7 @@ const AboutUs = () => {
         }
         cta="Repair Your Machine"
         href="/services"
-        imageSrc="/images/rn-infotech-47.avif"
+        imageSrc="/images/rn-infotech-47.webp"
       />
       <TextAndImageSection
         label="Our Story"
@@ -77,7 +77,7 @@ const AboutUs = () => {
         }
         cta="Contact Us"
         href="/contact"
-        imageSrc="/images/rn-infotech-51.jpg"
+        imageSrc="/images/rn-infotech-51.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />

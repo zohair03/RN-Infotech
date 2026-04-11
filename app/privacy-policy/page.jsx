@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
       <SubpageHero
         title="Privacy Policy"
         breadcrumb="Privacy Policy"
-        image="/images/rn-infotech-19.png"
+        image="/images/rn-infotech-19.webp"
         cta1="Call Us Now"
         cta2="Contact Us"
         href2="/contact"

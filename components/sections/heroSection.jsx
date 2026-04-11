@@ -5,7 +5,7 @@ import SecondaryBtn from "../ui/buttons/secondaryBtn";
 const Hero = () => {
   return (
     <>
-      <section className="flex flex-col items-center justify-center min-h-[91vh] max-[380px]:px-4 p-8 py-12 bg-[url('/images/rn-infotech-10.png')] bg-cover bg-center">
+      <section className="flex flex-col items-center justify-center min-h-[91vh] max-[380px]:px-4 p-8 py-12 bg-[url('/images/rn-infotech-10.webp')] bg-cover bg-center">
         <div className="flex flex-col h-full justify-center">
           <div className="h-[91vh] absolute inset-0 bg-black/70" /> {/* ← overlay */}
           <div className="h-full relative z-10 flex flex-col items-center justify-center gap-4 md:gap-6">

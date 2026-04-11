@@ -98,7 +98,7 @@ const ServiceArea = () => {
         subtitle="Based in Grant Road, RN Infotech proudly serves customers from every corner of Mumbai. Whether you visit our store or book a home service — we've got you covered!"
         breadcrumb="Ram & Storage Upgrade"
         isServicesPage={true}
-        image="/images/mumbai-city.jpg"
+        image="/images/mumbai-city.webp"
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"
@@ -175,7 +175,7 @@ const ServiceArea = () => {
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"
-        image={"bg-[url('/images/rn-infotech-19.png')]"}
+        image={"bg-[url('/images/rn-infotech-19.webp')]"}
       />
     </>
   );

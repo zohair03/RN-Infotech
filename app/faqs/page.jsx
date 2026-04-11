@@ -164,7 +164,7 @@ const Faqs = () => {
         title="Frequently Asked Questions"
         subtitle="Find answers to the most common questions about our laptop repair and computer services in Mumbai. Still have questions? We're just a call away!"
         breadcrumb="FAQs"
-        image="/images/rn-infotech-25.jpg"
+        image="/images/rn-infotech-25.webp"
         cta1="Call Us Now"
         cta2="Vist Us"
         href2="/service-area"

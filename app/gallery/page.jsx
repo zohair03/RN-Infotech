@@ -5,22 +5,22 @@ import SubpageHero from "@/components/sections/subpageHero";
 
 
 const galleryImages = [
-  { id: 1, src: "/images/rn-infotech-40.avif", alt: "Gallery Image 1" },
-  { id: 2, src: "/images/rn-infotech-46.avif", alt: "Gallery Image 2" },
-  { id: 3, src: "/images/rn-infotech-47.avif", alt: "Gallery Image 3" },
-  { id: 4, src: "/images/rn-infotech-49.avif", alt: "Gallery Image 4" },
-  { id: 5, src: "/images/rn-infotech-50.jpg", alt: "Gallery Image 5" },
-  { id: 6, src: "/images/rn-infotech-51.jpg", alt: "Gallery Image 6" },
-  { id: 7, src: "/images/rn-infotech-42.avif", alt: "Gallery Image 7" },
-  { id: 8, src: "/images/rn-infotech-43.avif", alt: "Gallery Image 8" },
-  { id: 8, src: "/images/rn-infotech-44.jpg", alt: "Gallery Image 9" },
-  { id: 8, src: "/images/rn-infotech-01.avif", alt: "Gallery Image 10" },
-  { id: 8, src: "/images/rn-infotech-02.avif", alt: "Gallery Image 11" },
-  { id: 8, src: "/images/rn-infotech-344.jpg", alt: "Gallery Image 12" },
-  { id: 8, src: "/images/rn-infotech-03.jpg", alt: "Gallery Image 13" },
-  { id: 8, src: "/images/rn-infotech-07.jpg", alt: "Gallery Image 14" },
-  { id: 8, src: "/images/rn-infotech-05.jpg", alt: "Gallery Image 15" },
-  { id: 8, src: "/images/rn-infotech-06.avif", alt: "Gallery Image 16" },
+  { id: 1, src: "/images/rn-infotech-05.webp", alt: "Gallery Image 1" },
+  { id: 2, src: "/images/rn-infotech-02.webp", alt: "Gallery Image 2" },
+  { id: 3, src: "/images/rn-infotech-06.webp", alt: "Gallery Image 3" },
+  { id: 4, src: "/images/rn-infotech-07.webp", alt: "Gallery Image 4" },
+  { id: 5, src: "/images/rn-infotech-42.webp", alt: "Gallery Image 5" },
+  { id: 6, src: "/images/rn-infotech-47.webp", alt: "Gallery Image 6" },
+  { id: 7, src: "/images/rn-infotech-50.webp", alt: "Gallery Image 7" },
+  { id: 8, src: "/images/rn-infotech-51.webp", alt: "Gallery Image 8" },
+  { id: 8, src: "/images/rn-infotech-344.webp", alt: "Gallery Image 9" },
+  { id: 8, src: "/images/rn-infotech-01.webp", alt: "Gallery Image 10" },
+  { id: 8, src: "/images/rn-infotech-02.webp", alt: "Gallery Image 11" },
+  { id: 8, src: "/images/rn-infotech-344.webp", alt: "Gallery Image 12" },
+  { id: 8, src: "/images/rn-infotech-03.webp", alt: "Gallery Image 13" },
+  { id: 8, src: "/images/rn-infotech-07.webp", alt: "Gallery Image 14" },
+  { id: 8, src: "/images/rn-infotech-05.webp", alt: "Gallery Image 15" },
+  { id: 8, src: "/images/rn-infotech-06.webp", alt: "Gallery Image 16" },
 ];
 
 const Gallery = () => {
@@ -69,7 +69,7 @@ const Gallery = () => {
         title="A Glimpse Into Our Workshop"
         subtitle="Take a look inside RN Infotech — our workspace, our team at work and the laptops we've repaired and restored. Trusted by thousands of customers across Mumbai since 1990."
         breadcrumb="Gallery"
-        image="/images/rn-infotech-17.jpg"
+        image="/images/rn-infotech-17.webp"
         cta1="Schedle A Repair"
         cta2="Contact Us"
         href2="/contact"

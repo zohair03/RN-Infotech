@@ -56,7 +56,7 @@ const LaptopRepair = () => {
         subtitle="Is your laptop feeling slow and sluggish? A RAM or storage upgrade could be all it needs. Fast, affordable and done by expert technicians in Mumbai."
         breadcrumb="Ram & Storage Upgrade"
         isServicesPage={true}
-        image="/images/rn-infotech-69.jpg"
+        image="/images/rn-infotech-69.webp"
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"
@@ -81,7 +81,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-77.jpg"
+        imageSrc="/images/rn-infotech-77.webp"
       />
       <TextAndImageSection
         label="What's Included"
@@ -113,7 +113,7 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-71.jpg"
+        imageSrc="/images/rn-infotech-71.webp"
         imageLeft={true}
         bgColor="bg-section-bg"
       />
@@ -145,11 +145,11 @@ const LaptopRepair = () => {
           </div>
         }
         isCtaBtn={false}
-        imageSrc="/images/rn-infotech-68.jpg"
+        imageSrc="/images/rn-infotech-68.webp"
       />
       <Faqs
         faqs={faqs}
-        image="/images/rn-infotech-36.jpg"
+        image="/images/rn-infotech-36.webp"
         title="RAM & Storage Upgrade — Frequently Asked Questions"
       />
       <FinalCta
@@ -159,7 +159,7 @@ const LaptopRepair = () => {
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/service-area"
-        image="bg-[url('/images/rn-infotech-69.jpg')]"
+        image="bg-[url('/images/rn-infotech-69.webp')]"
       />
     </>
   );

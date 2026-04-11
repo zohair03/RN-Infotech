@@ -12,7 +12,7 @@ const services = [
     title: "MacBook Pro/Air Repair",
     description:
       "From hardware failures to software crashes, our expert technicians diagnose and fix all laptop issues quickly and efficiently. Most repairs done within 2–3 business days.",
-    image: "/images/rn-infotech-30.jpg",
+    image: "/images/rn-infotech-30.webp",
     href: "/services/laptop-repair",
   },
   {
@@ -20,7 +20,7 @@ const services = [
     title: "Windows Laptop Repair",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.jpg",
+    image: "/images/rn-infotech-36.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -28,7 +28,7 @@ const services = [
     title: "iMac & Desktop Computer Repair",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.jpg",
+    image: "/images/rn-infotech-36.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -36,7 +36,7 @@ const services = [
     title: "Apple & Windows Laptop Spare Parts",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.jpg",
+    image: "/images/rn-infotech-36.webp",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -44,7 +44,7 @@ const services = [
     title: "Second Hand Laptops",
     description:
       "Get a quality-tested, affordable second-hand laptop that fits your budget. Perfect for students, freelancers, and small businesses looking for value.",
-    image: "/images/rn-infotech-11.jpg",
+    image: "/images/rn-infotech-11.webp",
     href: "/services/second-hand-laptops",
   },
   {
@@ -52,7 +52,7 @@ const services = [
     title: "RAM & Storage Upgrade",
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
-    image: "/images/rn-infotech-36.jpg",
+    image: "/images/rn-infotech-36.webp",
     href: "/services/ram-and-storage-upgrade",
   },
 ];

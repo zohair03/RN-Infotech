@@ -11,10 +11,10 @@ const TopBar = () => {
           {[...Array(5)].map((_, i) => (
             <Image
               key={i}
-              src="/icons/reviews-star.png"
+              src="/icons/reviews-star.svg"
               alt="Reviews stars"
-              width={12}
-              height={12}
+              width={16}
+              height={16}
               className="color-review-star"
             />
           ))}
