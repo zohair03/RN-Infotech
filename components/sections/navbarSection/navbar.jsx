@@ -101,7 +101,6 @@ const Navbar = () => {
   return (
     <nav>
       <div className="fixed top-0 z-50 w-full font-sans" ref={navbarRef}>
-
         {/* Top Bar */}
         <TopBar />
 
@@ -112,7 +111,10 @@ const Navbar = () => {
         >
           {/* Logo */}
           <div>
-            <Link href="/" className="font-semibold text-3xl md:text-4xl xl:text-3xl 2xl:text-5xl text-red-500">
+            <Link
+              href="/"
+              className="font-semibold text-3xl md:text-4xl xl:text-3xl 2xl:text-5xl text-red-500"
+            >
               <span className="text-blue-500">RN</span>Infotech
             </Link>
           </div>
@@ -129,10 +131,19 @@ const Navbar = () => {
           <button
             className="lg:hidden text-white flex flex-col gap-1.5 p-2"
             onClick={() => (menuOpen ? closeMenu() : openMenu())}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
           >
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-            <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+            <span
+              className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`}
+            />
+            <span
+              className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`}
+            />
+            <span
+              className={`block w-6 h-0.5 bg-white transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}
+            />
           </button>
         </div>
 
@@ -140,7 +151,6 @@ const Navbar = () => {
         {menuOpen && (
           <MobileMenu closeMenu={closeMenu} isClosing={menuClosing} />
         )}
-
       </div>
 
       {/* Mega Menus */}
@@ -162,7 +172,6 @@ const Navbar = () => {
           onMouseLeave={closeMega}
         />
       )}
-
     </nav>
   );
 };

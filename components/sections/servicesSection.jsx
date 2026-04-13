@@ -13,6 +13,7 @@ const services = [
     description:
       "From hardware failures to software crashes, our expert technicians diagnose and fix all laptop issues quickly and efficiently. Most repairs done within 2–3 business days.",
     image: "/images/rn-infotech-30.webp",
+    btnText: "MacBook Repair",
     href: "/services/laptop-repair",
   },
   {
@@ -21,6 +22,7 @@ const services = [
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
     image: "/images/rn-infotech-37.webp",
+    btnText: "Windows Laptop Repair",
     href: "/services/laptop-repair",
   },
   {
@@ -29,6 +31,7 @@ const services = [
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
     image: "/images/rn-infotech-57.webp",
+    btnText: "iMac & Desktop Repair",
     href: "/services/laptop-repair",
   },
   {
@@ -37,6 +40,7 @@ const services = [
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
     image: "/images/rn-infotech-70.webp",
+    btnText: "Laptop Spare Parts",
     href: "/services/laptop-repair",
   },
   {
@@ -45,6 +49,7 @@ const services = [
     description:
       "Get a quality-tested, affordable second-hand laptop that fits your budget. Perfect for students, freelancers, and small businesses looking for value.",
     image: "/images/rn-infotech-shop-08.webp",
+    btnText: "Second Hand Laptops",
     href: "/services/second-hand-laptops",
   },
   {
@@ -53,6 +58,7 @@ const services = [
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
     image: "/images/rn-infotech-ram.webp",
+    btnText: "RAM & Storage Upgrade",
     href: "/services/ram-and-storage-upgrade",
   },
 ];
@@ -100,8 +106,8 @@ const ServiceCard = ({ service, index, isVisible }) => {
           {service.description}
         </p>
         <Link href={service.href} className="pt-2">
-          <button className="cursor-pointer font-serif font-semibold font-extralight text-[12px] border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 transition-all ease-in-out duration-300 w-[200px] min-h-[50px]">
-            Learn more
+          <button className="cursor-pointer font-serif font-extralight text-[12px] border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 transition-all ease-in-out duration-300 w-full md:w-fit min-h-[50px]">
+            {service.btnText}
           </button>
         </Link>
       </div>
@@ -170,7 +176,7 @@ const Services = () => {
       </div>
 
       {/* Bottom button with fade-in */}
-      <div className={`flex justify-center mt-8 transition-all duration-700 ease-out delay-700
+      <div className={`w-full flex justify-center mt-8 transition-all duration-700 ease-out delay-700
         ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}>
         <PrimaryBtn href="/services" btnText="View All Services" />
       </div>

@@ -39,7 +39,7 @@ const WhyChooseUs = () => {
                     href="/about"
                     className="flex justify-center items-center text-primary font-bold font-sans text-base md:text-base"
                   >
-                    Learn More{" "}
+                    About Us
                     <Image
                       src="/icons/right-icon.svg"
                       alt="Arrow Icon"
@@ -70,7 +70,7 @@ const WhyChooseUs = () => {
                     href="/service-area"
                     className="flex justify-center items-center text-primary font-bold font-sans text-base md:text-base"
                   >
-                    Learn More{" "}
+                    Laptop Repair in Mumbai
                     <Image
                       src="/icons/right-icon.svg"
                       alt="Arrow Icon"
@@ -100,7 +100,7 @@ const WhyChooseUs = () => {
                     href="/contact"
                     className="flex justify-center items-center text-primary font-bold font-sans text-base md:text-base"
                   >
-                    Learn More{" "}
+                    Contact Now
                     <Image
                       src="/icons/right-icon.svg"
                       alt="Arrow Icon"
@@ -114,8 +114,8 @@ const WhyChooseUs = () => {
             </div>
 
             {/* Bottom Button */}
-            <div className="mt-2 lg:mt-4">
-              <PrimaryBtn href="/contact" btnText="Schedule a Repair" />
+            <div className="flex flex-col justify-center items-center mt-2 lg:mt-4 w-full md:w-fit">
+              <PrimaryBtn custom={"w-[80%]"} href="/contact" btnText="Schedule a Repair" />
             </div>
           </div>
         </div>

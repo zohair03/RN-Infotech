@@ -74,6 +74,7 @@ const Faqs = ({image='/images/rn-infotech-shop-02.webp', faqs=[],label="? FAQs",
                 src={image}
                 alt="FAQ Image"
                 fill
+                sizes="(max-width: 1024px) 0vw, 50vw"
                 className="object-cover"
               />
             </div>

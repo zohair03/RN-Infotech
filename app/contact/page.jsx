@@ -27,46 +27,46 @@ const ContactUs = () => {
         heading="Here's How You Can Reach Us"
         description={
           <div className="flex flex-col gap-3 whitespace-pre-line text-color-bodytext text-lg font-sans leading-relaxed">
-            <p className="flex gap-3 flex-col font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start">
+            <div className="flex flex-col gap-3 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start">
               <div className="flex gap-2">
-                <div>📍</div>
-                <div>
+                <span>📍</span>
+                <span>
                   Address: Tara Temple Lane, Leamington Road, Grant Road,
                   Mumbai.
-                </div>
+                </span>
               </div>
               <div className="flex gap-2">
-                <div>📞</div>
-                <div>
+                <span>📞</span>
+                <span>
                   Phone: +91 88797 32594
-                </div>
+                </span>
               </div>
               <div className="flex gap-2">
-                <div>📧</div>
-                <div>
+                <span>📧</span>
+                <span>
                   Email: rninfotechrepair@gmail.com
-                </div>
+                </span>
               </div>
-            </p>
+            </div>
 
-            <p className="flex gap-2 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start">
-              <div>🕙</div>
-              <div>
+            <div className="flex gap-2 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start">
+              <span>🕙</span>
+              <span>
                 Business Hours:
                 <br />
                 Monday – Saturday: 11:00 AM – 9:00 PM
                 <br />
                 Sunday: By Appointment Only
-              </div>
-            </p>
+              </span>
+            </div>
 
-            <p className="flex gap-2 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
-              <div>💳</div>
-              <div>
+            <div className="flex gap-2 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start">
+              <span>💳</span>
+              <span>
                 Payment Methods Accepted: Cash, UPI, Visa | Mastercard | RuPay,
                 Net Banking, Cheque | Demand Draft
-              </div>
-            </p>
+              </span>
+            </div>
           </div>
         }
         cta="Repair Your Machine"

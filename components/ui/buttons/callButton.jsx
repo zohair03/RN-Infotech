@@ -30,7 +30,7 @@ const CallButton = ({btnText, custom}) => {
       {/* Mobile - direct phone call */}
       <a
         href={`tel:${PHONE_NUMBER.replace(/-/g, "")}`}
-        className={`${custom} w-[214px] font-serif  font-extralight text-[12px] bg-primary hover:bg-[#43b1f5] text-secondary rounded-full px-8 transition-all ease-in-out duration-300 min-w-[200px]  min-h-[50px] sm:hidden flex items-center justify-center gap-2`}
+        className={`${custom} w-[214px] font-serif  font-extralight text-[12px] bg-primary hover:bg-[#43b1f5] text-secondary rounded-full px-8 transition-all ease-in-out duration-300 min-w-[90%]  min-h-[50px] sm:hidden flex items-center justify-center gap-2`}
       >
         <Image
           src="/icons/call.svg"

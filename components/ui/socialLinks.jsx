@@ -15,6 +15,7 @@ const socilLinks = () => {
           alt="Just Dial Nasir Khan RN Infotech"
           width={70}
           height={70}
+          style={{ width: 'auto', height: 'auto' }}
           className=""
         />
       </Link>

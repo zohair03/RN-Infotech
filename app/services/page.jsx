@@ -181,6 +181,7 @@ const Services = () => {
               src={service.image}
               alt={service.title}
               fill
+              sizes="(max-width: 1280px) 100vw, 33vw"
               className="object-cover"
             />
 

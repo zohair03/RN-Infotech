@@ -27,6 +27,7 @@ const AboutUs = () => {
                 src="/images/rn-infotech-26.webp"
                 alt="About background"
                 fill
+                sizes="(max-width: 1024px) 90vw, 50vw"
                 className="object-cover"
               />
             </div>
@@ -37,6 +38,7 @@ const AboutUs = () => {
                 src="/images/rn-infotech-31.webp"
                 alt="About foreground"
                 fill
+                sizes="(max-width: 1024px) 50vw, 30vw"
                 className="object-cover"
               />
             </div>

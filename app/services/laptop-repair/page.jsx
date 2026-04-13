@@ -65,7 +65,7 @@ const LaptopRepair = () => {
         label="What We Do"
         heading="Complete Laptop Repair Solutions"
         description={
-          <p className="flex flex-col gap-3 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
+          <div className="flex flex-col gap-3 font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
             <p className="font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
               At RN Infotech, we understand how important your laptop is to your
               daily life. Whether you are a student, a professional or a
@@ -80,7 +80,7 @@ const LaptopRepair = () => {
               including Dell, HP, Lenovo, Acer, Asus, Apple, Sony, Toshiba and
               more.
             </p>
-          </p>
+          </div>
         }
         isCtaBtn={false}
         imageSrc="/images/rn-infotech-53.webp"

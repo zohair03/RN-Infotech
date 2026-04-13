@@ -33,7 +33,7 @@ const SubpageHero = ({
             {subtitle}
           </p>
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 w-[70%] sm:w-auto">
+          <div className="w-[90%] md:w-fit flex flex-col sm:flex-row gap-5 md:gap-5">
             <CallButton custom="max-sm:w-[100%]" btnText={cta1} />
             {showCta2 && (
               <SecondaryBtn

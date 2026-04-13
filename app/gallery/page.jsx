@@ -87,6 +87,7 @@ const Gallery = () => {
                 src={image.src}
                 alt={image.alt}
                 fill
+                sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
@@ -156,6 +157,7 @@ const Gallery = () => {
                   src={galleryImages[selectedIndex].src}
                   alt={galleryImages[selectedIndex].alt}
                   fill
+                  sizes="90vw"
                   className="object-contain"
                 />
               </div>

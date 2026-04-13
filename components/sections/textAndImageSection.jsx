@@ -32,9 +32,9 @@ const TextAndImage = ({
               {heading}
             </h2>
           </div>
-          <p className="font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
+          <div className="font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
             {description}
-          </p>
+          </div>
           {isCtaBtn ? (
             <div className="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-4 w-full">
               {isClickToCall ? (
@@ -55,6 +55,7 @@ const TextAndImage = ({
               src={imageSrc}
               alt="Service Detail"
               fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"
             />
           </div>
