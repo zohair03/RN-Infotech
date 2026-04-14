@@ -7,7 +7,8 @@ const contactInfo = [
   {
     icon: "/icons/call.svg",
     alt: "call icon",
-    text: "tel:+91 88797 32594",
+    text: "+91 88797 32594",
+    link: "tel:+91 88797 32594",
     border: true,
   },
   {
