@@ -219,7 +219,7 @@ const ServicesHub = () => {
     <>
       <SubpageHero
         title="Everything Your Laptop Needs — Under One Roof"
-        subtitle="From quick repairs to quality second-hand laptops and genuine spare parts — RN Infotech has been Mumbai's most trusted laptop service destination since 1990."
+        subtitle="From quick repairs to quality second-hand laptops and genuine spare parts — RN Infotech has been Mumbai's most trusted laptop service destination since 2008."
         breadcrumb="Service Hub"
         image="/images/rn-infotech-57.webp"
         cta1="Call Us Now"

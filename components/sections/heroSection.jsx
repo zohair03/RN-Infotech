@@ -17,9 +17,9 @@ const Hero = () => {
 
             {/* Subtext */}
             <p className="max-[450px]:mt-[-5px] mt-[-20px] mb-[15px] font-sans max-[380px]:w-full w-[90%] max-[380px]:text-sm text-lg 2xl:text-2xl leading-6 max-[380px]:leading-5 md:leading-7 2xl:leading-8 sm:w-4/5 md:w-3/5 text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-xl text-white">
-              Serving Mumbai since 1990, RN Infotech provides expert
+              Serving Mumbai since 2008, RN Infotech provides expert
               diagnostics, genuine parts, and customer-first computer repair
-              solutions.
+              solutions
             </p>
 
             {/* Buttons */}

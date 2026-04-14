@@ -67,7 +67,7 @@ const Gallery = () => {
     <>
       <SubpageHero
         title="A Glimpse Into Our Workshop"
-        subtitle="Take a look inside RN Infotech — our workspace, our team at work and the laptops we've repaired and restored. Trusted by thousands of customers across Mumbai since 1990."
+        subtitle="Take a look inside RN Infotech — our workspace, our team at work and the laptops we've repaired and restored. Trusted by thousands of customers across Mumbai since 2008."
         breadcrumb="Gallery"
         image="/images/rn-infotech-17.webp"
         cta1="Schedle A Repair"

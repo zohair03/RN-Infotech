@@ -13,7 +13,7 @@ const AboutUs = () => {
     <>
       <SubpageHero
         title="Mumbai's Most Trusted Laptop Repair & Services Centre"
-        subtitle="Serving customers across Mumbai with honest, reliable and expert laptop solutions since 1990. We are not just a repair shop — we are your trusted tech partner."
+        subtitle="Serving customers across Mumbai with honest, reliable and expert laptop solutions since 2008. We are not just a repair shop — we are your trusted tech partner."
         breadcrumb="About Us"
         image="/images/rn-infotech-17.webp"
         cta1="Schedule Now"
@@ -26,7 +26,7 @@ const AboutUs = () => {
         description={
           <div className="flex flex-col gap-3">
             <p className="font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
-              Established in 1990, RN Infotech is one of Mumbai's most trusted
+              Established in 2008, RN Infotech is one of Mumbai's most trusted
               and experienced laptop repair and computer service centres.
               Located at Tara Temple Lane, Leamington Road, Grant Road — we have
               been serving thousands of customers across Mumbai for over three
@@ -56,7 +56,7 @@ const AboutUs = () => {
         description={
           <div className="flex flex-col gap-3">
             <p className="font-sans max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
-              RN Infotech was founded in 1990 with a simple goal — to provide
+              RN Infotech was founded in 2008 with a simple goal — to provide
               honest and reliable computer repair services to the people of
               Mumbai. Over the years, as technology evolved, so did we. We
               expanded our services, grew our team and built lasting

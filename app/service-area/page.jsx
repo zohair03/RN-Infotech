@@ -175,7 +175,7 @@ const ServiceArea = () => {
         cta1="Call Us Now"
         cta2="Book Home Service"
         href2="/contact"
-        image="bg-[url('/images/rn-infotech-19.webp')]"
+        image="bg-[url('/images/rn-infotech-final-bg.webp')]"
       />
     </>
   );
