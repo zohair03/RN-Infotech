@@ -46,7 +46,7 @@ const AboutUs = () => {
 
           <div className="flex flex-col gap-6 w-full lg:w-1/2 text-center lg:text-left items-center lg:items-start">
             <p className="max-[380px]:text-sm text-lg 2xl:text-xl text-start font-sans">
-              Established in 1990, RN Infotech is one of Mumbai's leading names
+              Established in 2008, RN Infotech is one of Mumbai's leading names
               in laptop repair and computer services. Located at Tara Temple
               Lane, Grant Road, we have been serving customers from across
               Mumbai for over three decades — building trust, one repair at a
