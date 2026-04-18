@@ -1,4 +1,4 @@
-import { Bitcount_Single, Boldonse, Roboto_Mono } from "next/font/google";
+import { Bitcount_Single, Boldonse, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/sections/navbarSection/navbar";
 import Footer from "@/components/footer";
@@ -17,10 +17,11 @@ const boldonse = Boldonse({
   display: 'swap',
 })
 
-const robotoMono = Roboto_Mono({
+const roboto = Roboto({
   subsets: ['latin'],
+  weight: 'variable',       // Allows for any weight and variation axes
+  variable: '--font-roboto', // Creates the CSS variable
   display: 'swap',
-  variable: '--font-roboto-mono', // This creates the CSS variable
 })
 
 export const viewport = {
@@ -36,7 +37,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.variable} ${bitcountSingle.variable} ${boldonse.variable} antialiased`}>
+      <body className={`${roboto.variable} ${bitcountSingle.variable} ${boldonse.variable} antialiased`}>
         <Navbar/>
         {children}
         <Footer/>

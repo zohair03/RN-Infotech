@@ -33,9 +33,10 @@ const FooterLinks = () => {
           <div className="flex flex-col gap-1">
             <Link
               href="/"
-              className="text-5xl lg:text-3xl xl:text-5xl text-red-500"
+              className="logo-glow text-5xl lg:text-3xl xl:text-5xl text-red-500"
             >
-              <span className="text-blue-500">RN</span>Infotech
+              <span className="rn-text">RN</span>
+              <span className="infotech-text">Infotech</span>
             </Link>
           </div>
 

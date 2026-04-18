@@ -113,9 +113,10 @@ const Navbar = () => {
           <div>
             <Link
               href="/"
-              className="font-semibold text-3xl md:text-4xl xl:text-3xl 2xl:text-5xl text-red-500"
+              className="logo-glow font-semibold text-3xl md:text-4xl xl:text-3xl 2xl:text-5xl"
             >
-              <span className="text-blue-500">RN</span>Infotech
+              <span className="rn-text">RN</span>
+              <span className="infotech-text">Infotech</span>
             </Link>
           </div>
 

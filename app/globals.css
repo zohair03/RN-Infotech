@@ -6,7 +6,7 @@
 }
 
 @theme inline {
-  --font-sans: var(--font-roboto-mono), monospace;
+  --font-sans: var(--font-roboto), monospace;
   --font-serif: var(--font-boldonse);
   --font-bitcount: var(--font-bitcount-single);
 
@@ -46,7 +46,7 @@
 }
 
 .animate-marquee {
-  animation: marquee 70s linear infinite;
+  animation: marquee 90s linear infinite;
 }
 
 @media (max-width: 768px) {
@@ -148,6 +148,91 @@
       opacity: 0.5;
     }
   }
+}
+
+/* glow effect for text - clockwise moving glow around the word */
+
+@property --glow-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes rotate-glow {
+  0%   { --glow-angle: 0deg; }
+  100% { --glow-angle: 360deg; }
+}
+
+@keyframes rn-glow {
+  0%, 100% { text-shadow: 0 0 8px #3b82f6, 0 0 20px #3b82f6, 0 0 40px #2563eb; }
+  50%       { text-shadow: 0 0 16px #93c5fd, 0 0 40px #60a5fa, 0 0 80px #3b82f6; }
+}
+
+@keyframes infotech-glow {
+  0%, 100% { text-shadow: 0 0 8px #ef4444, 0 0 20px #ef4444, 0 0 40px #dc2626; }
+  50%       { text-shadow: 0 0 16px #fca5a5, 0 0 40px #f87171, 0 0 80px #ef4444; }
+}
+
+.logo-glow {
+  display: inline-block;
+  background: none;
+  border: none;
+  isolation: isolate;
+}
+
+.logo-glow .rn-text {
+  color: #3b82f6;
+  animation: rn-glow 2s linear infinite;
+}
+
+.logo-glow .infotech-text {
+  color: #ef4444;
+  animation: infotech-glow 2s linear infinite;
+  animation-delay: -1s; /* offset so they alternate */
+}
+
+/* moving border button */
+@property --border-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes border-rotate {
+  0%   { --border-angle: 0deg; }
+  100% { --border-angle: 360deg; }
+}
+
+.btn-border-glow {
+  position: relative;
+  isolation: isolate;
+}
+
+.btn-border-glow::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 9999px;
+  background: conic-gradient(
+    from var(--border-angle),
+    transparent 0%,
+    transparent 40%,
+    #60a5fa 50%,
+    #93c5fd 55%,
+    transparent 65%,
+    transparent 100%
+  );
+  z-index: -1;
+  animation: border-rotate 2s linear infinite;
+}
+
+.btn-border-glow::after {
+  content: '';
+  position: absolute;
+  inset: 2px;
+  border-radius: 9999px;
+  background: #00234c;
+  z-index: -1;
 }
 
 body {

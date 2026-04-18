@@ -18,6 +18,7 @@ const services = [
     description:
       "Cracked or damaged screen? We replace screens for all major laptop brands quickly and at affordable prices.",
     image: "/images/rn-infotech-52.webp",
+    cta:"Laptop Screen Replacement",
     href: "/services/laptop-repair",
   },
   {
@@ -26,6 +27,7 @@ const services = [
     description:
       "Sticky, broken or unresponsive keys? We repair and replace laptop keyboards for all models.",
     image: "/images/rn-infotech-32.webp",
+    cta: "Keyboard Repair & Replacement",
     href: "/services/laptop-repair",
   },
   {
@@ -34,6 +36,7 @@ const services = [
     description:
       "Is your laptop battery draining too fast or not charging? We replace batteries with genuine, compatible parts.",
     image: "/images/rn-infotech-30.webp",
+    cta: "Battery Replacement",
     href: "/services/laptop-repair",
   },
   {
@@ -42,6 +45,7 @@ const services = [
     description:
       "Laptop not charging properly? We diagnose and fix all charging port issues quickly and efficiently.",
     image: "/images/hero-img.webp",
+    cta: "Charging Port Repair",
     href: "/services/laptop-repair",
   },
   {
@@ -50,6 +54,7 @@ const services = [
     description:
       "Experienced in diagnosing and repairing complex motherboard issues for all major laptop brands.",
     image: "/images/rn-infotech-57.webp",
+    cta: "Motherboard Repair",
     href: "/services/laptop-repair",
   },
   {
@@ -58,6 +63,7 @@ const services = [
     description:
       "Boost your laptop's performance with a RAM or storage upgrade. We recommend and install the best compatible options for your device.",
     image: "/images/rn-infotech-36.webp",
+    cta: "RAM & Storage Upgrade",
     href: "/services/ram-and-storage-upgrade",
   },
   // Second Hand Laptops
@@ -67,6 +73,7 @@ const services = [
     description:
       "Affordable, quality-tested laptops perfect for students. Great performance without burning a hole in your pocket.",
     image: "/images/rn-infotech-66.webp",
+    cta: "Second Hand Laptops for Students",
     href: "/services/second-hand-laptops",
   },
   {
@@ -75,6 +82,7 @@ const services = [
     description:
       "Need a reliable work laptop on a budget? We have a range of tested and verified laptops suited for professionals.",
     image: "/images/rn-infotech-11.webp",
+    cta: "Second Hand Laptops for Professionals",
     href: "/services/second-hand-laptops",
   },
   {
@@ -83,6 +91,7 @@ const services = [
     description:
       "Looking to equip your team? We offer bulk second-hand laptops for businesses at competitive prices. Contact us for bulk pricing.",
     image: "/images/rn-infotech-67.webp",
+    cta: "Bulk Laptops for Businesses",
     href: "/services/second-hand-laptops",
   },
   // Laptop Parts & Accessories
@@ -92,6 +101,7 @@ const services = [
     description:
       "Genuine replacement screens for all major laptop brands and models. Get a crystal clear display again.",
     image: "/images/rn-infotech-07.webp",
+    cta: "Laptop Screens & Displays",
     href: "/services/laptop-repair",
   },
   {
@@ -100,6 +110,7 @@ const services = [
     description:
       "Original and compatible replacement batteries for all major laptop brands. Long-lasting and reliable.",
     image: "/images/rn-infotech-12.webp",
+    cta: "Laptop Batteries",
     href: "/services/laptop-repair",
   },
   {
@@ -108,6 +119,7 @@ const services = [
     description:
       "Original and compatible laptop chargers and adapters for all brands. Safe, durable and fairly priced.",
     image: "/images/rn-infotech-78.webp",
+    cta: "Chargers & Adapters",
     href: "/services/laptop-repair",
   },
   {
@@ -116,6 +128,7 @@ const services = [
     description:
       "Upgrade your storage with quality hard drives and SSDs. We stock a wide range of compatible options.",
     image: "/images/rn-infotech-77.webp",
+    cta: "Hard Drives & SSDs",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -124,6 +137,7 @@ const services = [
     description:
       "Boost your laptop's speed and multitasking ability with compatible RAM upgrades. Available for all major models.",
     image: "/images/rn-infotech-ram.webp",
+    cta: "RAM Modules",
     href: "/services/ram-and-storage-upgrade",
   },
   {
@@ -132,6 +146,7 @@ const services = [
     description:
       "Replacement keyboards and touchpads for all major laptop brands. Genuine parts, smooth typing experience.",
     image: "/images/rn-infotech-54.webp",
+    cta: "Keyboards & Touchpads",
     href: "/services/laptop-repair",
   },
   // Home Service
@@ -141,6 +156,7 @@ const services = [
     description:
       "Can't visit us? Our expert technician will come to your home and repair your laptop right at your doorstep.",
     image: "/images/rn-infotech-56.webp",
+    cta: "Laptop Repair at Home",
     href: "/services/laptop-repair",
   },
   {
@@ -149,6 +165,7 @@ const services = [
     description:
       "We also offer office visit services for businesses. Get your team's laptops repaired without disrupting your workflow.",
     image: "/images/rn-infotech-55.webp",
+    cta: "Office Visit Service",
     href: "/services/laptop-repair",
   },
 ];
@@ -197,8 +214,8 @@ const Services = () => {
                 {service.description}
               </p>
               <Link href={service.href} className="pt-2">
-                <button className="cursor-pointer font-semibold text-[16px] border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 transition-all ease-in-out duration-300 w-[200px] min-h-[50px]">
-                  Learn more
+                <button className="cursor-pointer font-serif font-extralight text-[12px] leading-5 border border-white text-white rounded-full bg-transparent hover:bg-white/30 hover:backdrop-blur-lg px-8 py-2 transition-all ease-in-out duration-300 w-full md:w-fit min-h-[50px]">
+                  {service.cta}
                 </button>
               </Link>
             </div>

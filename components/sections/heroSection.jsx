@@ -12,7 +12,7 @@ const Hero = () => {
             
             {/* Heading */}
             <h1 className="flex justify-center items-center font-serif text-color-herotext max-[380px]:text-xl text-[25px] pt-25 sm:text-5xl md:text-4xl lg:text-5xl xl:text-4xl 2xl:text-6xl text-center sm:w-4/5 max-[380px]:leading-10 leading-12 md:leading-16 lg:leading-18 xl:leading-18 2xl:leading-28">
-              PROFESSIONAL LAPTOP REPAIR & REFURBISHED LAPTOPS IN GRANT ROAD
+              Get Your Laptop Back to Life with RN Infotech’s Expert Service
             </h1>
 
             {/* Subtext */}
