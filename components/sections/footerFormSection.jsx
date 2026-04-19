@@ -37,8 +37,7 @@ const FooterForm = () => {
             Contact Us Today
           </h3>
           <p className="w-full md:w-[80%] font-sans text-base md:text-[18px] font-medium text-black/70">
-            Achieve your skincare goals with personalized guidance from our
-            experts.
+            Whether you have questions about our services, need assistance, or want to schedule a repair, we're here to help. Reach out to us through any of the contact methods below, and our friendly team will be happy to assist you.
           </p>
         </div>
 
@@ -110,8 +109,7 @@ const FooterForm = () => {
             Send Us A Message
           </h3>
           <p className="w-full md:w-[80%] font-sans text-base md:text-[18px] font-medium text-black/70">
-            Achieve your skincare goals with personalized guidance from our
-            experts.
+            Have questions or need assistance? Our team is here to help. Fill out the form below, and we'll get back to you as soon as possible.
           </p>
         </div>
 
